@@ -1,0 +1,9 @@
+# 使用git托管代码细节
+——————
+> * 如何忽略文件中的非用于上传的本地文件，以及文件夹
+  第一步：创建.gitignore文件；打开git bash命令行，在git bash中输入
+  touch .gitignore就生成了.gitignore文件
+  第二步：编辑.gitignore文件，
+          #ignore these files
+          ingnore.txt   //要忽略的文件
+          runtime/* //要忽略的文件夹
