@@ -4,33 +4,83 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Homepage</title>
-    
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="bookmark" href="favicon.ico">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap-homepage.css">
     <script src="assets/scripts/libs/jquery/jquery-2.1.1.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <a href="homepage/" class="text-lg">HomePage</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Options<span class="caret"></span></a>
-                </li>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="author/">Author</a></li>
-                    <li><a href="article">Article</a></li>
+    <div class="container-fluid">
+        <div class="header">
+            <nav class="navbar font-m">
+                <ul class="nav navbar-nav">
+                    <li> <a href="homepage/" class="text-lg">HomePage</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Options<span class="caret"></span></a>
+                    </li>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="author/">Author</a>
+                        </li>
+                        <li><a href="article">Article</a>
+                        </li>
+                    </ul>
                 </ul>
-                <div class="nav navbar-nav nav-right">
-                    <a href="author/"><img src="assets/images/user.jpg" class="image-circle"></a>
-                </div>
-            </ul>
-        </nav>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="avatar">
+                        <a href="author/"><img src="assets/images/user.jpg" class="image-circle">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-item text-truncate">
+            <div class="title">
+                <a href="books/"><h1>找工作必看书籍罗列</h1></a>
+            </div>
+            <div class="content font-xl">
+                <dl>
+                    <dt>C/C++</dt>
+                    <dd>《C++程序设计》</dd>
+                    <dd>《深入探索C++对象模型》</dd>
+                    <dd>《Effective C++》</dd>
+                    <dd>《More effective C++》</dd>
+                    <dd>《C缺陷与陷阱》</dd>
+                    <dd>《C专家编程》</dd>
+                </dl>
+                <dl>
+                    <dt>操作系统</dt>
+                    <dd>《深入理解计算机系统》</dd>
+                    <dd>《操作系统:精髓与设计及原理》</dd>
+                    <dd>《Unix环境高级编程》</dd>
+                </dl>
+                <dl>
+                    <dt>网络编程</dt>
+                    <dd>《Unix网络编程:卷一》</dd>
+                    <dd>《TCP/IP详解:卷一》</dd>
+                </dl>
+                <dl>
+                    <dt>算法与数据结构</dt>
+                    <dd>《算法导论》</dd>
+                    <dd>《算法竞赛入门经典》</dd>
+                    <dd>《算法竞赛入门经典——训练指南》</dd>
+                    <dd>《编程珠玑》</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="author-info">
+            <p><a href="http://www.hust.edu.cn/">华中科技大学电信系</a></p>
+            <p><a href="http://email.163.com/">邮箱:lidasong2014@163.com</a></p>
+        </div>
     </div>
 </body>
 

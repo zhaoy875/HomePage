@@ -1,3 +1,7 @@
+/*
+  常用的字体类
+*/
+
 @font-face {
   font-family: 'OpenSansLight';
   src: url("../fonts/OpenSans-Light-webfont.eot");
@@ -66,4 +70,31 @@
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * 定义关于字体的常用类
+ */
+
+.font-hand {
+    font-family: "Lucida Handwriting", "arial";
+}
+
+.font-italic {
+  font-family: "HelveticaNeue-LightItalic"
+}
+
+.font-xs {font-size:  12px;}
+.font-s {font-size: 13px;}
+// 默认就是14px！
+.font-m {font-size: 16px;}
+.font-l {font-size: 18px;}
+.font-xl {font-size: 20px;}
+.font-xxl {font-size: 24px;}
+
+// 字体截断类，要求元素为block或inline-block且定宽
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
