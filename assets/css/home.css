@@ -110,7 +110,13 @@ div.container-fluid nav.navbar {
   margin-right: 40px;
   margin-left: 40px;
 }
-div.container-fluid nav.navbar .navbar-nav li a:hover {
+div.container-fluid nav.navbar .navbar-nav li.open .dropdown-menu {
+  min-width: 0;
+  background-color: #2a445a;
+}
+div.container-fluid nav.navbar .navbar-nav li > a {
+  color: white;
+  text-align: center;
   background-color: inherit;
 }
 .navbar-right li.avatar a {
