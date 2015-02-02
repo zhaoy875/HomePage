@@ -172,3 +172,7 @@ div.container-fluid nav.navbar .navbar-nav li > a {
 .footer .author-info a {
   text-decoration: none;
 }
+.footer .audio {
+  position: relative;
+  left: -200px;
+}
