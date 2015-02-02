@@ -12,7 +12,14 @@
 
   // ALERT CLASS DEFINITION
   // ======================
-
+  /**
+   * Build and execute a child process using the spawn function
+   * @param {Object} grunt - the grunt context
+   * @param {String} script - the script to run
+   * @param {Array} sources - the list of sources files
+   * @param {Object} options - the list of cli flags
+   * @return {ChildProcess} from the spawn
+   */
   var dismiss = '[data-dismiss="alert"]'
   var Alert   = function (el) {
     $(el).on('click', dismiss, this.close)

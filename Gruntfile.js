@@ -6,6 +6,16 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+
+        /* jsdoc生成js文档 */
+        jsdoc:{
+        	dist:{
+        		src:[ 'assets/scripts/test.js'],
+        		options:{
+        			destination:'docs'
+        		}
+        	}
+        },
        
         /* JS代码检查 */
         jshint: {
@@ -71,7 +81,7 @@ module.exports = function(grunt) {
             }
         }
     });
-
+	grunt.loadNpmTasks('grunt-jsdoc');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -81,4 +91,5 @@ module.exports = function(grunt) {
     grunt.registerTask('js-hint', 'JS代码质量检查', ['jshint']);
     grunt.registerTask('css-lint', 'CSS代码质量检查', ['csslint']);
     grunt.registerTask('minify-css', 'CSS代码压缩', ['cssmin']);
+    grunt.registerTask('doc','jsdoc生成js文档',['jsdoc']);
 };
