@@ -173,6 +173,6 @@ div.container-fluid nav.navbar .navbar-nav li > a {
   text-decoration: none;
 }
 .footer .audio {
-  position: relative;
+  position: absolute;
   left: -200px;
 }
