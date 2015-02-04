@@ -11,12 +11,11 @@
     <link rel="bookmark" href="favicon.ico">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap-homepage.css">
-    <script src="assets/scripts/lib/jquery/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="assets/scripts/lib/bootstrap/dropdown.js"></script>
+    <script src="assets/scripts/require-config.js"></script>
 </head>
 
 <body>
-    <!-- <div id="clock">
+    <!-- <div class="clock">
         <object height="180" width="180" align="center" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0">
             <param value="http://images.cnblogs.com/cnblogs_com/csharp/clock.swf" name="movie">
             <param value="high" name="quality">
@@ -65,13 +64,19 @@
 
                 </div>
             </div>
+            <div class="content-item">
+                <div class="music-nav">
+                    <button class="prev">Prev</button>
+                    <button class="next">Next</button>
+                </div>
+            </div>
         </div>
         <div class="footer">
             <div class="audio">
-                <object type="application/x-shockwave-flash" data="dewplayer-vol.swf?mp3=assets/mp3/troubleMaker.mp3&amp;autostart=1&amp;autoreplay=1" width="200" height="20" id="dewplayer">
+                <object type="application/x-shockwave-flash" data="dewplayer-vol.swf" width="200" height="20" id="dewplayer">
                     <param name="wmode" value="transparent" />
-                    <param name="movie" value="dewplayer-vol.swf?mp3=assets/mp3/troubleMaker.mp3" />
-                    <param name="flashvars" value="volume=80">>
+                    <param name="movie" value="dewplayer-vol.swf" />
+                    <param name="flashvars" value="mp3=mp3/troubleMaker.mp3|mp3/雏菊.mp3|mp3/追梦人.mp3&amp;autostart=1&amp;autoreplay=1&amp;volume=80&amp;javascript=on">>
                 </object>
             </div>
             <div class="author-info">
@@ -82,7 +87,8 @@
             </div>
         </div>
     </div>
-    
+
 </body>
+<script src="assets/scripts/require.js" data-main="main/home"></script>
 
 </html>
