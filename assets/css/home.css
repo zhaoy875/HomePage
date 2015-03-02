@@ -184,3 +184,15 @@ div.container-fluid nav.navbar .navbar-nav li > a {
   position: absolute;
   left: -200px;
 }
+.audio-sidebar {
+  position: absolute;
+  left: -400px;
+  bottom: 70px;
+  width: 400px;
+  padding: 20px;
+}
+.audio-sidebar .audio-progress {
+  width: 100%;
+  background: #2a445a;
+  height: 2px;
+}

@@ -8,7 +8,6 @@ require([
         $btnPrev = $('.prev'),
         $btnNext = $('.next');
     $btnPrev.on('click', function() {
-        console.log(dewPlayer);
         dewPlayer.dewprev();
     });
     $btnNext.on('click', function() {
