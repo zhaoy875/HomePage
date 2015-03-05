@@ -1,7 +1,7 @@
 #布局介绍
 ________________
 ## 两列布局
-> 方案1：
+> **方案1：**
 使用浮动布局，left、content两列，left浮动、content使用margin-left给个left的width;
 > 方案2：
 使用浮动+负边距，left、wrapper>content两列，left、wrapper浮动，left的margin-right：-100%,
