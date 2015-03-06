@@ -8,7 +8,6 @@ ________________
 content有个margin-left给left的width
 
 ## 两列等高布局
-------------------
  * **方案1：**
   使用border，wrapper>left+content,left、content浮动，wrapper的border为left的width
  * **方案2：**
