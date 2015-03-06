@@ -21,3 +21,4 @@ content[border]大小为left的width，content设置负margin
 left设置float，width为负margin，content设置margin=left[width]
  * **方案5：**
   两列布局meghod2+relative布局 
+[**详细布局信息**](http://www.cnblogs.com/jununx/p/3336553.html)
