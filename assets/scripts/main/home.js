@@ -4,13 +4,13 @@ require([
 ], function($) {
     'use strict';
 
-    var dewPlayer = $('#dewplayer')[0],
+    var DewPlayer = $('#dewplayer')[0],
         $btnPrev = $('.prev'),
         $btnNext = $('.next');
     $btnPrev.on('click', function() {
-        dewPlayer.dewprev();
+        DewPlayer.dewprev();
     });
     $btnNext.on('click', function() {
-        dewPlayer.dewnext();
+        DewPlayer.dewnext();
     });
 });
