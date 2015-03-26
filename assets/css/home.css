@@ -136,7 +136,19 @@ div.container-fluid nav.navbar .navbar-nav li > a {
   margin-right: 10px;
 }
 .image-circle {
-  border-radius: 50%;
+    border-radius: 50%;
+    box-shadow:0px 0px 0px #fff 0px 0px 1px #333;
+    -webkit-transition:-webkit-transform .2s ease-in-out;
+    -moz-transition:-moz-transform .2s ease-in-out;
+    transition:transform 0.2s ease-in-out;
+}
+.image-circle:hover{
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    transform:scale(1.2);
+    -webkit-transition:-webkit-transform .2s ease-in-out;
+    -moz-transition:-moz-transform .2s ease-in-out;
+    transition:transform 0.2s ease-in-out;
 }
 .container {
   padding-top: 20px;
