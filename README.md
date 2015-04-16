@@ -26,3 +26,5 @@ left设置float，width为负margin，content设置margin=left[width]
 [**html5rocks详细介绍HTML5**](http://slides.html5rocks.com/#landing-slide) 
 
 [**阮一峰论html5**](http://javascript.ruanyifeng.com/#introduction)
+
+[**阿里goddyzhao论js核心**](http://goddyzhao.tumblr.com/JavaScript-Internal)
