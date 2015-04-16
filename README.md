@@ -22,3 +22,5 @@ left设置float，width为负margin，content设置margin=left[width]
   两列布局meghod2+relative布局 
 
 [**详细布局信息**](http://www.cnblogs.com/jununx/p/3336553.html)
+## 优秀JS文章
+** [html5rocks详细介绍HTML5](http://slides.html5rocks.com/#landing-slide) **
