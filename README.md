@@ -28,3 +28,4 @@ left设置float，width为负margin，content设置margin=left[width]
 [**阮一峰论html5**](http://javascript.ruanyifeng.com/#introduction)
 
 [**阿里goddyzhao论js核心**](http://goddyzhao.tumblr.com/JavaScript-Internal)
+{% highlight javascript %}
