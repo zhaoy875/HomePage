@@ -28,3 +28,6 @@ left设置float，width为负margin，content设置margin=left[width]
 [**阮一峰论html5**](http://javascript.ruanyifeng.com/#introduction)
 
 [**阿里goddyzhao论js核心**](http://goddyzhao.tumblr.com/JavaScript-Internal)
+
+###伪类、伪元素区别
+**根本区别在于：它们是否创造了新的元素(抽象)。从我们模仿其意义的角度来看，如果需要添加新元素加以标识的，就是伪元素，反之，如果只需要在既有元素上添加类别的，就是伪类。
