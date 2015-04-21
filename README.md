@@ -40,3 +40,6 @@ left设置float，width为负margin，content设置margin=left[width]
 [**CodePen测试**](http://codepen.io/KatieK2/pen/AbxGr)
 
 [**CodePen另一个测试**](http://codepen.io/thirdtiu/pen/fjnxd)
+
+###工具类
+[**直接将style中的css对应到标签内在线实现**](http://templates.mailchimp.com/resources/inline-css/)
