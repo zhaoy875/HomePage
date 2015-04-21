@@ -35,7 +35,7 @@ left设置float，width为负margin，content设置margin=left[width]
 ###绝对居中方式详解
 [**详见该网址**](http://blog.csdn.net/freshlover/article/details/11579669)
 
-[**前端没有极限解决方案**](http://wcc723.github.io/css/2015/01/16/css-magic/)
+[**台湾牛人——前端没有极限：解决方案**](http://wcc723.github.io/css/2015/01/16/css-magic/)
 
 [**CodePen测试**](http://codepen.io/KatieK2/pen/AbxGr)
 
