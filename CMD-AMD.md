@@ -1,6 +1,7 @@
 ### CMD与AMD的区别
 -----------------------
 * 一、
+
  **CMD依赖就近**
   ``` javascript
       define(function(require,exports,module){  
@@ -30,6 +31,7 @@ function toString后，用正则匹配出require关键字后面的依赖。
 * 三、api设计角度
   **AMD的api默认是一个当多个用**
   **CMD的API严格区分，推从职责单一**
+
   比如AMD里，require分全局require和局部require，都叫require。
   CMD里，没有全局require，而是根据模块系统的完备性，提供seajs.use来实现模块系统的加载启动。
   CMD里，每个API都简单纯粹。
