@@ -1,6 +1,6 @@
 ### CMD与AMD的区别
 -----------------------
-* 一、
+* 一、依赖
 
  **CMD依赖就近**
   ``` javascript
@@ -25,11 +25,15 @@ function toString后，用正则匹配出require关键字后面的依赖。
   不过RequireJS从2.0开始，也改变可以延迟执行(根据写法不同，处理方式不同)。
   
 * 二、执行顺序上：
+* 
   **CMD是延迟执行的**
+
   **AMD是提前执行的**
   
 * 三、api设计角度
+* 
   **AMD的api默认是一个当多个用**
+
   **CMD的API严格区分，推从职责单一**
 
   比如AMD里，require分全局require和局部require，都叫require。
