@@ -44,3 +44,7 @@
   });
     => {name: 'moe', userid: 'moe1'}
 ```
+### Collection
+* **each**
+* **each**
+* **each**
