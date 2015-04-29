@@ -19,7 +19,8 @@
 ```
 * **invert**
 ```javascript
-  //返回一个object副本，使其键（keys）和值（values）对换。对于这个操作，必须确保object里所有的值都是唯一的且可以序列号成字符串.
+  //返回一个object副本，使其键（keys）和值（values）对换。对于这个操作，
+  //必须确保object里所有的值都是唯一的且可以序列号成字符串.
   _.invert({Moe: "Moses", Larry: "Louis", Curly: "Jerome"});
     => {Moses: "Moe", Louis: "Larry", Jerome: "Curly"};
 ```
