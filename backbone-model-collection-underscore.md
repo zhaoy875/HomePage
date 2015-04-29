@@ -72,3 +72,10 @@
 * **isEmpty**
 * **chain**
 * **sample**
+
+### AttributeMethods
+* **groupBy**
+* **countBy**
+* **sortBy**
+* **indexBy**
+
