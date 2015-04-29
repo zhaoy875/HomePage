@@ -11,6 +11,7 @@
   ```
   代码在运行时，首先是不知道依赖的，需要遍历所有的require关键字，找出后面的依赖。具体做法是将
 function toString后，用正则匹配出require关键字后面的依赖。
+
  **AMD依赖前置**
   ```javascript
     define(['./a','./b'],function(a,b){  
