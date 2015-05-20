@@ -43,3 +43,6 @@ left设置float，width为负margin，content设置margin=left[width]
 
 ###工具类
 [**直接将style中的css对应到标签内在线实现**](http://templates.mailchimp.com/resources/inline-css/)
+
+###移动端web总结
+[**HTML5移动平台支撑度与兼容性分析**](http://zhangdaiping.iteye.com/blog/1645363)
