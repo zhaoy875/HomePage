@@ -46,3 +46,6 @@ left设置float，width为负margin，content设置margin=left[width]
 
 ###移动端web总结
 [**HTML5移动平台支撑度与兼容性分析**](http://zhangdaiping.iteye.com/blog/1645363)
+
+###AngularJs博客详解
+[**angular学习笔记**](http://www.cnblogs.com/lcllao/tag/%E7%AC%94%E8%AE%B0/)
