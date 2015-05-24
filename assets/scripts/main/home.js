@@ -21,7 +21,7 @@ require([
         //基本信息
         console.log('%c木公-男-华中科技大学','font-size:36px;font-weight:bold;text-shadow:0px 0px 0px #fff,1px 1px 0px #b3b3b3,2px 2px 0px #666;');
         //头像
-        console.log('%c','margin-left:100px;padding:80px;border-radius:50%;background:#333 url(http://itec-lds.github.io/user/assets/images/avatar2.jpg) no-repeat center;line-height:200px;');
+        console.log('%c','margin-left:100px;padding:80px;border-radius:50%;background:#333 url(http://itec-lds.github.io/user/assets/images/mugong.jpg) no-repeat center;line-height:200px;');
         //求工作
         console.log('%c求前端工作——求收留,有小伙伴看到求介绍','font-size:24px;color:#f75a53;text-shadow:0px 0px 0px #fff,1px 1px 0px #b3b3b3;');
     }
