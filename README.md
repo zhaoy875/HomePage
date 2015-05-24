@@ -22,3 +22,30 @@ left设置float，width为负margin，content设置margin=left[width]
   两列布局meghod2+relative布局 
 
 [**详细布局信息**](http://www.cnblogs.com/jununx/p/3336553.html)
+## 优秀JS文章
+[**html5rocks详细介绍HTML5**](http://slides.html5rocks.com/#landing-slide) 
+
+[**阮一峰论html5**](http://javascript.ruanyifeng.com/#introduction)
+
+[**阿里goddyzhao论js核心**](http://goddyzhao.tumblr.com/JavaScript-Internal)
+
+###伪类、伪元素区别
+ **根本区别在于：它们是否创造了新的元素(抽象)。从我们模仿其意义的角度来看，如果需要添加新元素加以标识的，就是伪元素，反之，如果只需要在既有元素上添加类别的，就是伪类。**
+ 
+###绝对居中方式详解
+[**详见该网址**](http://blog.csdn.net/freshlover/article/details/11579669)
+
+[**台湾牛人——前端没有极限：解决方案**](http://wcc723.github.io/css/2015/01/16/css-magic/)
+
+[**CodePen测试**](http://codepen.io/KatieK2/pen/AbxGr)
+
+[**CodePen另一个测试**](http://codepen.io/thirdtiu/pen/fjnxd)
+
+###工具类
+[**直接将style中的css对应到标签内在线实现**](http://templates.mailchimp.com/resources/inline-css/)
+
+###移动端web总结
+[**HTML5移动平台支撑度与兼容性分析**](http://zhangdaiping.iteye.com/blog/1645363)
+
+###AngularJs博客详解
+[**angular学习笔记**](http://www.cnblogs.com/lcllao/tag/%E7%AC%94%E8%AE%B0/)
