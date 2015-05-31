@@ -63,12 +63,12 @@ function draw(evt) {
     }
 }
 
-function showMessage(evt){
-    var data={};
-    data.x=evt.offsetX;
-    data.y=evt.offsetY;
-    graphCollections.forEach(function(gragh,key){
-        
+function showMessage(evt) {
+    var data = {};
+    data.x = evt.offsetX;
+    data.y = evt.offsetY;
+    graphCollections.forEach(function(gragh, key) {
+
     });
 }
 
