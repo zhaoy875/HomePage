@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>画图</title>
+    <style>
+    #myCanvas {
+        background: #eee;
+    }
+    .control{
+    	position: absolute;
+    	right:40px;
+    	bottom: 100px;
+    }
+    .control >button {
+    	display: inline-block;
+        text-align: center;
+        width:80px;
+        height:30px;
+    }
+    </style>
+</head>
+
+<body>
+    <canvas id="myCanvas" width=1000 height=600>在此处作图</canvas>
+    <div class="control">
+	    <button type="button" id="block">方块画笔</button>
+	    <button type="button" id="circle">正圆画笔</button>
+	    <button type="button" id="reset">重置画笔</button>
+    </div>
+    <script src="graph.js"></script>
+</body>
+
+</html>
