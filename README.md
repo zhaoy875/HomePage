@@ -55,13 +55,13 @@ left设置float，width为负margin，content设置margin=left[width]
 
 ## 移动设计手册
 ** DPI(Dots Per Inch)每英寸像素点的个数 **
-** PPI(pixels per inch)图像分辨率(在图像中，每英寸所包含的像素数目)
+** PPI(pixels per inch)图像分辨率(在图像中，每英寸所包含的像素数目)**
 ** 1inch = 2.54cm **
 ** dip(device independent pixel) **
 ** dp(device pixel) **
 
 + dip(设备独立像素:不同设备有不同的显示效果，这个和设备硬件你有关，不依赖像素。
-分辨率:屏幕图像的精密度，是指显示器所能显示的像素点的多少，显示器可显示的像素越多，画面就越精细
++ 分辨率:屏幕图像的精密度，是指显示器所能显示的像素点的多少，显示器可显示的像素越多，画面就越精细
 + px(像素):不同设备显示效果相同，px是分辨率的单位，也就是说320*480的分辨率内，共有153600个像素。
 + 屏幕密度：表示每英寸有多少个显示点，与分辨率是两个不同的概念。单位是dpi。
 + dpi的计算：dpi=Diagonal pixel/Screen size
