@@ -55,9 +55,13 @@ left设置float，width为负margin，content设置margin=left[width]
 
 ## 移动设计手册
 **DPI(Dots Per Inch)每英寸像素点的个数**
+
 **PPI(pixels per inch)图像分辨率(在图像中，每英寸所包含的像素数目)**
+
 **1inch = 2.54cm**
+
 **dip(device independent pixel)**
+
 **dp(device pixel)**
 
 + dip(设备独立像素:不同设备有不同的显示效果，这个和设备硬件你有关，不依赖像素。
