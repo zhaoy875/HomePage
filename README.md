@@ -80,6 +80,7 @@ item接口获取列表中的第几项
 
 + **document.styleSheets.item(n)**
 	获取第n项的样式表
+
 **属性**
 	- cssRules：获取所有cssStyleRule列表
 	- rules：同cssRules
@@ -87,6 +88,7 @@ item接口获取列表中的第几项
 	- type
 	- owerNode
 	- ownerRule
+
 **方法**
 	- addRule
 	- deleteRule
