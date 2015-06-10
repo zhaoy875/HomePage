@@ -86,16 +86,16 @@ item接口获取列表中的第几项
 
 **属性**
 
-	-cssRules：获取所有cssStyleRule列表
-	-rules：同cssRules
-	- title
-	- type
-	- owerNode
-	- ownerRule
+	+ cssRules：获取所有cssStyleRule列表
+	+ rules：同cssRules
+	+ title
+	+ type
+	+ owerNode
+	+ ownerRule
 
 **方法**
 
-	- addRule
-	- deleteRule
-	- insertRule
-	- removeRule
+	+ addRule
+	+ deleteRule
+	+ insertRule
+	+ removeRule
