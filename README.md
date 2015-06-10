@@ -72,8 +72,11 @@ left设置float，width为负margin，content设置margin=left[width]
 	Diagonal pixel表示对角线像素值：
 	=sqrt(长^2+宽^2)
 	Screen size:屏幕对角线长度
+
 -------------------------------------------------------
+
 ## styleSheet
+
 + **document.styleSheets**
 	获取文档中的所有css样式列表
 item接口获取列表中的第几项
