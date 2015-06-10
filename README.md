@@ -86,8 +86,8 @@ item接口获取列表中的第几项
 
 **属性**
 
-	- cssRules：获取所有cssStyleRule列表
-	- rules：同cssRules
+	-cssRules：获取所有cssStyleRule列表
+	-rules：同cssRules
 	- title
 	- type
 	- owerNode
