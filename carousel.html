@@ -90,7 +90,7 @@
     $arrowLeft.addEventListener('click', move);
     $arrowRight.addEventListener('click', move);
     // document.addEventListener('keyup',move);
-
+    console.log($arrowLeft);
     function move(evt) {
         evt.target.dataset.move == 'left' ? currentIndex++ : currentIndex == 0 ? currentIndex = itemLen - 1 : currentIndex--;
         currentIndex %= itemLen;
