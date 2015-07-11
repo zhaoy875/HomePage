@@ -61,7 +61,7 @@
 
 <body>
     <div class="container" data-position="0">
-        <div class="item child active"><img src="carousel/p1.jpg" alt=""></div>
+        <div class="item active"><img src="carousel/p1.jpg" alt=""></div>
         <div class="item child"><img src="carousel/p2.jpg" alt=""></div>
         <div class="item child"><img src="carousel/p3.jpg" alt=""></div>
         <div class="item child"><img src="carousel/p4.jpg" alt=""></div>
@@ -83,14 +83,15 @@
         $arrowRight = $('.right-arrow'),
         $items = $$('.item'),
         $active = $('.active'),
+        $container = $('.container'),
         currentIndex = 0,
         itemLen = $items.length;
 
     $arrowLeft.addEventListener('click', move);
     $arrowRight.addEventListener('click', move);
+    // document.addEventListener('keyup',move);
 
     function move(evt) {
-        console.log(evt);
         evt.target.dataset.move == 'left' ? currentIndex++ : currentIndex == 0 ? currentIndex = itemLen - 1 : currentIndex--;
         currentIndex %= itemLen;
         $active.classList.remove('active');
