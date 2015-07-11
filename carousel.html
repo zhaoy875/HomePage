@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>crousel</title>
+    <style>
+    body {
+        overflow: hidden;
+    }
+    
+    .container {
+        position: absolute;
+        left: 0;
+        width: 500%;
+        font-size: 0;
+    }
+    
+    .item {
+        display: inline-block;
+        position: absolute;
+        width: 20%;
+        height: 600px;
+        overflow: hidden;
+        opacity: 0;
+        transition: all .4s ease-in-out;
+    }
+    .child{
+    	-webkit-transform: translateX(100%);
+    	-ms-transform: translateX(100%);
+    	-o-transform: translateX(100%);
+    	transform: translateX(100%);
+    }
+    .item.active {
+        opacity: 1.0;
+        left: 0;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+    
+    .item img {
+        max-width: 100%;
+    }
+    
+    .arrow {
+        position: fixed;
+        top: 50%;
+    }
+    
+    .left-arrow {
+        left: 0;
+    }
+    
+    .right-arrow {
+        right: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container" data-position="0">
+        <div class="item child active"><img src="carousel/p1.jpg" alt=""></div>
+        <div class="item child"><img src="carousel/p2.jpg" alt=""></div>
+        <div class="item child"><img src="carousel/p3.jpg" alt=""></div>
+        <div class="item child"><img src="carousel/p4.jpg" alt=""></div>
+        <div class="item child"><img src="carousel/p5.jpg" alt=""></div>
+        <button class="arrow right-arrow" data-move="left">&nbsp;>&nbsp;</button>
+        <button class="arrow left-arrow" data-move="right">&nbsp;
+            <&nbsp;</button>
+    </div>
+    <script>
+    function $(selector) {
+        return document.querySelector(selector);
+    }
+
+    function $$(selector) {
+        return document.querySelectorAll(selector);
+    }
+
+    var $arrowLeft = $('.left-arrow'),
+        $arrowRight = $('.right-arrow'),
+        $items = $$('.item'),
+        $active = $('.active'),
+        currentIndex = 0,
+        itemLen = $items.length;
+
+    $arrowLeft.addEventListener('click', move);
+    $arrowRight.addEventListener('click', move);
+
+    function move(evt) {
+        console.log(evt);
+        evt.target.dataset.move == 'left' ? currentIndex++ : currentIndex == 0 ? currentIndex = itemLen - 1 : currentIndex--;
+        currentIndex %= itemLen;
+        $active.classList.remove('active');
+        $items[currentIndex].classList.add('active');
+        $items[currentIndex].classList.remove('child');
+        $active = $items[currentIndex];
+    }
+    </script>
+</body>
+
+</html>
