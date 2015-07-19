@@ -97,3 +97,7 @@ item接口获取列表中的第几项
 + deleteRule
 + insertRule
 + removeRule
+
+## github token 
+**一个测试用的github access_token**
+fdca470dfab03227f9535ab30e42a3c4e110e293
