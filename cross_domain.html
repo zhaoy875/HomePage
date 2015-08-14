@@ -5,12 +5,37 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="bookmark" href="favicon.ico">
-    <!-- <link rel="stylesheet" href="assets/css/cross_domain.css"> -->
+    <link rel="stylesheet" href="assets/css/cross_domain.css">
     <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap-homepage.css">
     <title>跨域讨论</title>
 </head>
 
 <body>
+    <div class="container-fluid header">
+        <nav class="navbar font-m">
+            <ul class="nav navbar-nav">
+                <li> <a href="" class="text-lg">HomePage</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" id="options" data-toggle="dropdown">Options<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="#options">
+                        <li role="presentation"><a role="menuitem" href="/user">Author</a>
+                        </li>
+                        <li role="presentation"><a role="menuitem" href="/article">Articles</a>
+                        </li>
+                        <li role="presentation"><a href="/musics" role="menuitem">Musics</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="avatar">
+                    <a href="/user"><img src="assets/images/user.jpg" class="image-circle">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="post container">
         <h1 class="postTitle">
                 <a id="cb_post_title_url" class="postTitle2" href="javascript:void(0);">JavaScript跨域总结与解决办法</a>
