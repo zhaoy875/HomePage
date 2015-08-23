@@ -73,22 +73,22 @@
   font-family: "HelveticaNeue-LightItalic";
 }
 .font-xs {
-  font-size: 12px;
+  font-size: .75em;
 }
 .font-s {
-  font-size: 13px;
+  font-size: .8125em;
 }
 .font-m {
-  font-size: 16px;
+  font-size: 1em;
 }
 .font-l {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 .font-xl {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .font-xxl {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 .text-truncate {
   overflow: hidden;

@@ -73,22 +73,22 @@
   font-family: "HelveticaNeue-LightItalic";
 }
 .font-xs {
-  font-size: 12px;
+  font-size: .75em;
 }
 .font-s {
-  font-size: 13px;
+  font-size: .8125em;
 }
 .font-m {
-  font-size: 16px;
+  font-size: 1em;
 }
 .font-l {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 .font-xl {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .font-xxl {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 .text-truncate {
   overflow: hidden;
@@ -152,16 +152,16 @@ div.container-fluid nav.navbar .navbar-nav li > a {
 }
 .container {
   padding-top: 20px;
-  color: #FEF0E5;
+  color: #fef0e5;
 }
 .content-item {
   margin-bottom: 20px;
   margin-left: 40px;
   padding-left: 10px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
   -moz-box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
 }
 .content-item .title a {
   text-decoration: none;
@@ -169,10 +169,19 @@ div.container-fluid nav.navbar .navbar-nav li > a {
 .content-item .content {
   margin-left: 40px;
 }
+@media (max-width: 480px) {
+  .content-item {
+    margin-left: 0;
+    white-space: normal;
+  }
+  .content-item .content {
+    margin-left: 20px;
+  }
+}
 .clock {
   position: absolute;
   left: -150px;
-  transition: left 0.2s linear;
+  transition: left .2s linear;
 }
 .clock:hover {
   left: 0;
