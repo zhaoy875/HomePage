@@ -186,3 +186,6 @@ html body {
   color: #FEF0E5;
   font-size: 16px;
 }
+.postBody {
+  word-wrap: break-word;
+}
