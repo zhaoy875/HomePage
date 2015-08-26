@@ -109,4 +109,5 @@ fdca470dfab03227f9535ab30e42a3c4e110e293
 ## 不想用issue就直接在这里写
 **section bug**
 > section与section或者article标签之间会产生底部空隙，原因暂时不知
+
 > 解决方法：给section添加一个padding-bottom:1px;
