@@ -186,6 +186,36 @@ html body {
   color: #FEF0E5;
   font-size: 16px;
 }
-.postBody {
+.postBody,
+.postBody-2 {
   word-wrap: break-word;
+}
+@media (min-width: 800px) {
+  .window-name {
+    padding-left: 2em;
+  }
+}
+.toggle {
+  float: right;
+  margin-top: -2em;
+}
+.toggle:focus {
+  background-color: #cfd41d;
+}
+@media (max-width: 400px) {
+  .toggle {
+    display: none;
+  }
+}
+input[type="checkbox"]:checked + .postBody {
+  display: none;
+}
+input[type="checkbox"]:checked ~ .postBody-2 {
+  display: block;
+}
+input[type="checkbox"]:not(:checked) + .postBody {
+  display: block;
+}
+input[type="checkbox"]:not(:checked) ~ .postBody-2 {
+  display: none;
 }
