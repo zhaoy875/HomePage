@@ -102,3 +102,12 @@ item接口获取列表中的第几项
 **一个测试用的github access_token**
 
 fdca470dfab03227f9535ab30e42a3c4e110e293
+
+## css conf china
+[**中国第二届CSS Conf**](http://www.w3ctech.com/topic/1463)
+
+## 不想用issue就直接在这里写
+**section bug**
+> section与section或者article标签之间会产生底部空隙，原因暂时不知
+
+> 解决方法：给section添加一个padding-bottom:1px;
