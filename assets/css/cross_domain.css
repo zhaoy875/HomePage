@@ -200,7 +200,7 @@ html body {
   margin-top: -2em;
 }
 .toggle:focus {
-  background-color: #cfd41d;
+  color: #cfd41d;
 }
 @media (max-width: 400px) {
   .toggle {
