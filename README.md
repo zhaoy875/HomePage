@@ -111,3 +111,16 @@ fdca470dfab03227f9535ab30e42a3c4e110e293
 > section与section或者article标签之间会产生底部空隙，原因暂时不知
 
 > 解决方法：给section添加一个padding-bottom:1px;
+
+### namespace简单实现
+``` javascript
+function namespace(oNamespace, sPackage) {
+    var obj = oNamespace;
+    sPackage = sPackage.split('.');
+    for(var i=0,len=sPackage.length;i<len;i++){
+        obj[sPackage[i]] = {};
+        obj=obj[sPackage[i]];
+    }
+    return oNamespace;
+}
+```
