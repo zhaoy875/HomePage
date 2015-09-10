@@ -140,3 +140,12 @@ another.z=another={y:2};
 	another.z=another;//执行这个后，obj获取z属性
 ```
 那么，一切都正常了...
+ ### 美团笔试
+ ```javascript
+ function formatString(sourceString) {
+    var regHeadTail=/^\s*|\s*$/g,
+        regMiddle=/\b\s{2,}\b/g;
+    sourceString = sourceString.replace(regHeadTail,'');
+    return sourceString.replace(regMiddle,' ');
+}
+ ```
