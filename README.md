@@ -136,7 +136,7 @@ another.z=another={y:2};
 ```javascript another.z=another={y:2};```
 如果执行顺序为：
 ``` javascript
-	another.z={y:2};
-	another={y:2};
+	another={y:2};//执行这个后，其实another.z的another对象依然指向{x:1}的obj
+	another.z=another;//执行这个后，obj获取z属性
 ```
 那么，一切都正常了...
