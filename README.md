@@ -132,6 +132,7 @@ var obj={x:1},
 another.z=another={y:2};
 ```
 **分析**
+
 ```javascript another.z=another={y:2};```
 如果执行顺序为：
 ``` javascript
