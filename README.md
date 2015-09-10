@@ -124,3 +124,10 @@ function namespace(oNamespace, sPackage) {
     return oNamespace;
 }
 ```
+### 待解决js难题
+```javascript
+var obj={x:1},
+	another = obj;
+	console.log(another);
+another.z=another={y:2};
+```
