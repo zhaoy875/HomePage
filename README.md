@@ -131,3 +131,11 @@ var obj={x:1},
 	console.log(another);
 another.z=another={y:2};
 ```
+**分析**
+```javascript another.z=another={y:2};```
+如果执行顺序为：
+``` javascript
+	another.z={y:2};
+	another={y:2};
+```
+那么，一切都正常了...
