@@ -141,7 +141,8 @@ another.z=another={y:2};
 ```
 那么，一切都正常了...
 
- ### 美团笔试
+### 美团笔试
+ 
  ```javascript
  function formatString(sourceString) {
     var regHeadTail=/^\s*|\s*$/g,
