@@ -151,3 +151,6 @@ another.z=another={y:2};
     return sourceString.replace(regMiddle,' ');
 }
  ```
+### 获取天气数据
+
+http://op.juhe.cn/onebox/weather/query?cityname=%E4%B8%8A%E6%B5%B7&key=01827b8b5b216fe22ccf240352e8b5eb
