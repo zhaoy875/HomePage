@@ -157,3 +157,7 @@ http://op.juhe.cn/onebox/weather/query?cityname=%E4%B8%8A%E6%B5%B7&key=01827b8b5
 
 ### xss与字符编码
 [字符编码中的xss](http://drops.wooyun.org/tips/689)
+
+###javascript学习资料
+
+[资料合集](https://github.com/lidasong2014/javascript-path)
