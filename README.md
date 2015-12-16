@@ -1,3 +1,43 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+</head>
+
+<body>
+    <table style="width: 800px;
+        margin: auto;
+        padding:0 0 20px;
+        background-color: #999;
+        color: #eee;
+        font-family: 'Helvetica Neue', Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, Arial, sans-serif;">
+        <caption style="background-color:#666;
+    	font-size: 24px;padding:10px;">找回密码</caption>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td style="width:80px;
+    	padding:10px;
+    	text-align: right;">用户名：</td>
+                <td style="padding:10px;">lds</td>
+            </tr>
+            <tr>
+                <td style="width:80px;
+    	padding:10px;
+    	text-align: right;">密码：</td>
+                <td style="padding:10px;">123456</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+```
+
 -----------------------
 ##基于NodeJs的云平台存储系统设计与实现
 -----------------------
