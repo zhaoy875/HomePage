@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tab</title>
+    <style>
+		.active{
+			background-color:red;
+		}
+		.tabs{
+			list-style:none;
+		}
+		.tab{
+			display:inline-block;
+		}
+		.hidden{
+			display:none;
+		}
+		.show{
+			display:block;
+		}
+    </style>
+</head>
+
+<body>
+    <ul class="tabs">
+        <li class="tab tab0 active"><a href="javascript:void(0);">tab1</a></li>
+        <li class="tab tab1"><a href="javascript:void(0);">tab2</a></li>
+        <li class="tab tab2"><a href="javascript:void(0);">tab3</a></li>
+    </ul>
+    <div class="tab-content">
+    	<div id="tab1" class="hidden show">这是tab1</div>
+    	<div id="tab2" class="hidden">这是tab2</div>
+    	<div id="tab3" class="hidden">这是tab3</div>
+    </div>
+</body>
+	<script>
+		onListenTab();
+		function onListenTab(){
+			var $ul = document.querySelector('ul'),
+				$lis = document.querySelectorAll('li'),
+				$tabContent = document.querySelector('.tab-content');
+			$ul.addEventListener('click',function(evt){
+				var index = evt.target.parentElement.className.split(' ')[1].substr(3),
+					$tab = $lis[index];
+				hide.call($ul,'active');
+				show.call($ul,index,'active');
+				hide.call($tabContent,'show');
+				show.call($tabContent,index,'show');
+			});
+		}
+
+		function show(index,name){
+			this.children[index].className += ' '+name;
+		}
+
+		function hide(name){
+			for(var i=0,child;child=this.children[i];i++){
+				var showIndex = child.className.indexOf(name);
+				if(showIndex!=-1){
+					child.className = child.className.substr(0,showIndex);
+					return;
+				}
+			}
+		}
+
+		function focus(){
+			console.log('alser');
+		}
+	</script>
+</html>
