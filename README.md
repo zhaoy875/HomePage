@@ -1,3 +1,7 @@
+-----------------------
+##基于NodeJs的云平台存储系统设计与实现
+-----------------------
+
 #布局介绍
 ________________
 ## 两列布局
@@ -111,3 +115,53 @@ fdca470dfab03227f9535ab30e42a3c4e110e293
 > section与section或者article标签之间会产生底部空隙，原因暂时不知
 
 > 解决方法：给section添加一个padding-bottom:1px;
+
+### namespace简单实现
+``` javascript
+function namespace(oNamespace, sPackage) {
+    var obj = oNamespace;
+    sPackage = sPackage.split('.');
+    for(var i=0,len=sPackage.length;i<len;i++){
+        obj[sPackage[i]] = {};
+        obj=obj[sPackage[i]];
+    }
+    return oNamespace;
+}
+```
+### 待解决js难题
+```javascript
+var obj={x:1},
+	another = obj;
+	console.log(another);
+another.z=another={y:2};
+```
+**分析**
+
+```javascript another.z=another={y:2};```
+如果执行顺序为：
+``` javascript
+	another={y:2};//执行这个后，其实another.z的another对象依然指向{x:1}的obj
+	another.z=another;//执行这个后，obj获取z属性
+```
+那么，一切都正常了...
+
+### 美团笔试
+ 
+ ```javascript
+ function formatString(sourceString) {
+    var regHeadTail=/^\s*|\s*$/g,
+        regMiddle=/\b\s{2,}\b/g;
+    sourceString = sourceString.replace(regHeadTail,'');
+    return sourceString.replace(regMiddle,' ');
+}
+ ```
+### 获取天气数据
+
+http://op.juhe.cn/onebox/weather/query?cityname=%E4%B8%8A%E6%B5%B7&key=01827b8b5b216fe22ccf240352e8b5eb
+
+### xss与字符编码
+[字符编码中的xss](http://drops.wooyun.org/tips/689)
+
+###javascript学习资料
+
+[资料合集](https://github.com/lidasong2014/javascript-path)
