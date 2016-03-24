@@ -165,3 +165,6 @@ http://op.juhe.cn/onebox/weather/query?cityname=%E4%B8%8A%E6%B5%B7&key=01827b8b5
 ###javascript学习资料
 
 [资料合集](https://github.com/lidasong2014/javascript-path)
+
+###this的确定
+**在一般的函数调用中，this的值是由激活上下文代码的调用者决定的，比如说，调用函数的外层上下文。this的值是由调用表达式的形式决定的。**
